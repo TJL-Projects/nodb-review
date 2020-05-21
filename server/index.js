@@ -14,7 +14,7 @@ app.post('/api/pokemon', caughtCtrl.catchPokemon)
 app.put('/api/pokemon/:pokemon_id', caughtCtrl.editPokemon)
 app.delete('/api/pokemon/:pokemon_id', caughtCtrl.deletePokemon)
 
-const SERVER_PORT = 3000
+const SERVER_PORT = 3001
 
 app.listen(SERVER_PORT, () => {
     console.log(`Server is running on port: ${SERVER_PORT}`)
